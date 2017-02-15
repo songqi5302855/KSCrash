@@ -112,6 +112,7 @@ Pod::Spec.new do |s|
       sinks.ios.frameworks = 'MessageUI'
       sinks.dependency 'KSCrash/Reporting/Filters'
       sinks.dependency 'KSCrash/Reporting/Tools'
+      sinks.dependency 'skpsmtpmessage'
       sinks.source_files = 'Source/KSCrash/Reporting/Sinks/**/*.{h,m,mm,c,cpp}'
     end
 
