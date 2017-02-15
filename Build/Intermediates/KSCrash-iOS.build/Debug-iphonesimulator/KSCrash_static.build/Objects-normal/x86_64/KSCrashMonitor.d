@@ -1,0 +1,19 @@
+dependencies: \
+  /Users/songqi/Desktop/WorkSpace/CarchWorkspace/KSCrash/Source/KSCrash/Recording/Monitors/KSCrashMonitor.c \
+  /Users/songqi/Desktop/WorkSpace/CarchWorkspace/KSCrash/Source/KSCrash/Recording/Monitors/KSCrashMonitor.h \
+  /Users/songqi/Desktop/WorkSpace/CarchWorkspace/KSCrash/Source/KSCrash/Recording/Monitors/KSCrashMonitorType.h \
+  /Users/songqi/Desktop/WorkSpace/CarchWorkspace/KSCrash/Source/KSCrash/Recording/Tools/KSThread.h \
+  /Users/songqi/Desktop/WorkSpace/CarchWorkspace/KSCrash/Source/KSCrash/Recording/Monitors/KSCrashMonitorContext.h \
+  /Users/songqi/Desktop/WorkSpace/CarchWorkspace/KSCrash/Source/KSCrash/Recording/Tools/KSMachineContext.h \
+  /Users/songqi/Desktop/WorkSpace/CarchWorkspace/KSCrash/Source/KSCrash/Recording/Monitors/KSCrashMonitor_Deadlock.h \
+  /Users/songqi/Desktop/WorkSpace/CarchWorkspace/KSCrash/Source/KSCrash/Recording/Monitors/KSCrashMonitor_MachException.h \
+  /Users/songqi/Desktop/WorkSpace/CarchWorkspace/KSCrash/Source/KSCrash/Recording/Monitors/KSCrashMonitor_CPPException.h \
+  /Users/songqi/Desktop/WorkSpace/CarchWorkspace/KSCrash/Source/KSCrash/Recording/Monitors/KSCrashMonitor_NSException.h \
+  /Users/songqi/Desktop/WorkSpace/CarchWorkspace/KSCrash/Source/KSCrash/Recording/Monitors/KSCrashMonitor_Signal.h \
+  /Users/songqi/Desktop/WorkSpace/CarchWorkspace/KSCrash/Source/KSCrash/Recording/Monitors/KSCrashMonitor_System.h \
+  /Users/songqi/Desktop/WorkSpace/CarchWorkspace/KSCrash/Source/KSCrash/Recording/Monitors/KSCrashMonitor_User.h \
+  /Users/songqi/Desktop/WorkSpace/CarchWorkspace/KSCrash/Source/KSCrash/Recording/Monitors/KSCrashMonitor_AppState.h \
+  /Users/songqi/Desktop/WorkSpace/CarchWorkspace/KSCrash/Source/KSCrash/Recording/Monitors/KSCrashMonitor_Zombie.h \
+  /Users/songqi/Desktop/WorkSpace/CarchWorkspace/KSCrash/Source/KSCrash/Recording/Tools/KSDebug.h \
+  /Users/songqi/Desktop/WorkSpace/CarchWorkspace/KSCrash/Source/KSCrash/Recording/KSSystemCapabilities.h \
+  /Users/songqi/Desktop/WorkSpace/CarchWorkspace/KSCrash/Source/KSCrash/Recording/Tools/KSLogger.h
