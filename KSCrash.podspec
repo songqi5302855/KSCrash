@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   IOS_DEPLOYMENT_TARGET = '6.0' unless defined? IOS_DEPLOYMENT_TARGET
   s.name         = "KSCrash"
-  s.version      = "1.14.2"
+  s.version      = "1.0.0"
   s.summary      = "The Ultimate iOS Crash Reporter"
   s.homepage     = "https://github.com/kstenerud/KSCrash"
   s.license     = { :type => 'KSCrash license agreement', :file => 'LICENSE' }
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.osx.deployment_target =  '10.8'
   s.tvos.deployment_target =  '9.0'
   s.watchos.deployment_target =  '2.0'
-  s.source       = { :git => "https://github.com/songqi5302855/KSCrash.git"}
+  s.source       = { :git => "https://github.com/songqi5302855/KSCrash.git" }
   s.frameworks = 'Foundation'
   s.libraries = 'c++', 'z'
   s.xcconfig = { 'GCC_ENABLE_CPP_EXCEPTIONS' => 'YES' }
@@ -112,7 +112,6 @@ Pod::Spec.new do |s|
       sinks.ios.frameworks = 'MessageUI'
       sinks.dependency 'KSCrash/Reporting/Filters'
       sinks.dependency 'KSCrash/Reporting/Tools'
-      sinks.dependency = 'skpsmtpmessage'
       sinks.source_files = 'Source/KSCrash/Reporting/Sinks/**/*.{h,m,mm,c,cpp}'
     end
 
