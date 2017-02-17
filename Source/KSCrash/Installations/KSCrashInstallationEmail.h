@@ -85,7 +85,7 @@ typedef enum
  *
  * Note: With the default filter set, files are gzipped text.
  *
- * Default: "crash-report-YourBundleID-%d.txt.gz"
+ * Default: "crash-report-YourBundleID-%d.crash.gz"
  */
 @property(nonatomic,readwrite,retain) NSString* filenameFmt;
 

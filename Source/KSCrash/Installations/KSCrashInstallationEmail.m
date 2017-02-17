@@ -69,12 +69,12 @@
         NSString* bundleName = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleName"];
         self.subject = [NSString stringWithFormat:@"Crash Report (%@)", bundleName];
         self.defaultFilenameFormats = [NSDictionary dictionaryWithObjectsAndKeys:
-                                       [NSString stringWithFormat:@"crash-report-%@-%%d.txt.gz", bundleName],
+                                       [NSString stringWithFormat:@"crash-report-%@-%%d.crash.gz", bundleName],
                                        [NSNumber numberWithInt:KSCrashEmailReportStyleApple],
                                        [NSString stringWithFormat:@"crash-report-%@-%%d.json.gz", bundleName],
                                        [NSNumber numberWithInt:KSCrashEmailReportStyleJSON],
                                        nil];
-        [self setReportStyle:KSCrashEmailReportStyleJSON useDefaultFilenameFormat:YES];
+        [self setReportStyle:KSCrashEmailReportStyleApple useDefaultFilenameFormat:YES];
     }
     return self;
 }
